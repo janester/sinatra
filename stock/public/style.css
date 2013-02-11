@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Diplomata+SC);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body {
+  background: url("/Moneyback.jpg") no-repeat;
+}
+#h1 {
+  color: #284022;
+  font-size: 65px;
+  width: 1150px;
+  margin: 5px auto 5px auto;
+  font-family: 'Diplomata SC', cursive;
+/*  text-shadow: black 0.1em 0.1em 0.2em;*/
+  text-align: center;
+  background: #f1f1e9;
+  padding: 5px;
+  border: 3px solid #284022;
+  border-radius: 10px;
+}
+
+#box {
+  width:1150px;
+  margin: 5px auto 5px auto;
+  text-align: center;
+  background: #f1f1e9;
+  border: 3px solid #284022;
+  border-radius: 10px;
+
+}
+
+#h2 {
+  color: #284022;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 40px;
+  width: 1150px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+input {
+  border: 3px solid #284022;
+  background: #f1f1e9;
+  width:300px;
+  height: 200px;
+}
+
+div {
+  color: #284022;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 40px;
+  width: 1150px;
+  margin: auto;
+  text-align: center;
+}
+
+span {
+  color: red;
+}

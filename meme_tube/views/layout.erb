@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>MemeTube</title>
+  </header>
+  <body>
+    <div id="header">
+      <h1 class="meme">Meme<span class="tube">Tube</span></h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home |</a></li>
+          <li><a href="/new">New Video |</a></li>
+          <li><a href="/all">All Videos |</a></li>
+          <% @nav_rows.each do |row| %>
+            <li><a href="/all/<%= row["genre"]%>"><%=row["genre"]%> |</a></li>
+          <% end %>
+        </ul>
+      </nav>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
+  </body>
+</html>

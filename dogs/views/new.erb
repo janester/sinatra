@@ -1,0 +1,7 @@
+<form  action = "<%= @row.nil? ? "/create" : "/all/#{@row["id"]}" %>" method = 'post'>
+  <input value="<%= @row["name"] if @row %>" type="text" name="name" autofocus>
+  <input value="<%= @row["photo"] if @row %>" type="text" name="photo">
+  <input value="<%= @row["breed"] if @row %>" type="text" name="breed">
+  <button><%= @row.nil? ? "New Dog" : "Edit Dog" %></button>
+
+</form>

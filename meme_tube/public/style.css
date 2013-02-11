@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Leckerli+One);
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Atomic+Age);
+@import url(http://fonts.googleapis.com/css?family=Trocchi);
+
+
+body {
+  font-family: 'Trocchi', serif;
+  background: #04756F;
+  color: #FF8C00;
+}
+#main {
+  width: 1100px;
+  margin: auto;
+  border: 1px dashed #04756F;
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+#header {
+  position: fixed;
+  z-index: 1;
+  width: 1330px;
+  margin: auto;
+  background: #04756F;
+  box-shadow:2px 2px 10px #333333
+}
+.meme {
+  font-family: Impact;
+  font-size: 80px;
+  color: white;
+  text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+  padding-left: 10px;
+}
+.tube {
+  font-family: 'Leckerli One', cursive;
+  color: #D90000;
+  text-shadow: none;
+}
+nav {
+  background: #2E0927;
+  padding: 10px 0 10px 10px;
+}
+li {
+  display: inline-block;
+}
+.entry {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+  background: #2E0927;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow:2px 2px 10px #333333, -2px -2px 10px #333333;
+  width: 444px;
+}
+
+#video {
+  border: 2px solid #FF8C00;
+  margin: 10px;
+}
+a, a:hover{
+  text-decoration: none;
+}
+a, a:visited {
+  color: #FF8C00;
+}
+#new_vid {
+  text-align: left;
+  background: #2E0927;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow:2px 2px 10px #333333, 2px 2px 10px #333333
+}
+h2 {
+  font-family: 'Leckerli One', cursive;
+  color: #D90000;
+  font-size: 50px;
+  padding: 0 0 20px 0;
+}
+label {
+  color: #FF8C00;
+  font-size: 22px;
+}
+input {
+  width: 300px;
+  height: 25px;
+  border: none;
+  padding: 0px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background: #04756F;
+  border: 2px solid #FF8C00;
+  color: white;
+  font-family: 'Trocchi', serif;
+
+}
+.form {
+  height: 65px;
+}
+
+#title {
+  font-size: 30px;
+}
+
+.desc {
+  font-family: 'Leckerli One', cursive;
+  color: #D90000;
+}
+
+button {
+  border: none;
+  float: left;
+  margin: 10px 10px 0 10px;
+  color: #FF8C00;
+  background: #04756F;
+  border-radius: 5px;
+  font-family: 'Leckerli One', cursive;
+  font-size: 25px;
+}
+
+.form button {
+  padding-top: 0px;
+}
+
+#home {
+  text-align: left;
+  background: #2E0927;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow:2px 2px 10px #333333, 2px 2px 10px #333333
+}
+#home .meme{
+  padding: 0px;
+}
+#home span {
+  font-size: 50px;
+}
+
+#home h2 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+

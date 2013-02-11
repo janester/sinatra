@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Diplomata+SC|Roboto:700|Averia+Libre:700' rel='stylesheet' type='text/css'>
+<!--     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+  </header>
+  <body>
+    <div id="main">
+      <h1>To Do List</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+  <!--         <li><a href="/about">About</a></li>
+          <li><a href="/faq">FAQ</a></li> -->
+          <li><a href="/new">New Task</a></li>
+          <li><form id="nav_form" action="/create" method="post">
+            <input type="text" name="task_to_add">
+            <button>Add Task</button>
+          </form></li>
+        </ul>
+      </nav>
+      <%= yield %>
+    </div>
+  </body>
+</html>

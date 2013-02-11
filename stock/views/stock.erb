@@ -1,0 +1,18 @@
+<div id="h1">
+  <h1>Get A Stock Quote</h1>
+</div>
+
+<div id="box">
+  <div id="h2">
+    <h2>Enter a Stock Symbol</h2>
+  </div>
+
+  <form>
+    <input type="text" name="stock_sym">
+    <button>Find</button>
+  </form>
+  <div>
+  <p><span><%= params[:stock_sym].upcase %></span> is <span>$<%= @quote %></span>
+  </p>
+  </div>
+</div>

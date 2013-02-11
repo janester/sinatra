@@ -1,0 +1,30 @@
+<div id="head">
+  <h1>CALC-U-LATER</h1>
+</div>
+
+<form action="/calc" method="get">
+  <input type="text" name="first">
+  <select name="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">x</option>
+    <option value="/">/</option>
+  </select>
+  <input type="text" name="second">
+  <div id="button">
+    <button>Calc-u-late!</button>
+  </div>
+</form>
+
+<div id="main">
+  <p><%= @first %></p>
+  <p><%= params[:operator] %></p>
+  <p><%= @second %></p>
+  <p>=</p>
+  <p><%= @answer %></p>
+</div>
+
+
+<!-- this is the calc file -->
+
+<!-- the result is <%= @answer %> -->

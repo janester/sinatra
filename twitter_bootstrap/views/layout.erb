@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8">
+    <title>Twitter Bootstrap Demo</title>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/jquery-1.9.1.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+
+  </header>
+  <body>
+     <div class="container">
+        <div class="row">
+          <div class="span12">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">...</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4"><h1>Hello Twitter Bootstrap</h1></div>
+          <div class="span8">
+            <a class="btn btn-success" href="#">SUCESS</a>
+            <a class="btn btn-info" href="#">INFO</a>
+            <button class="btn btn-danger btn-mini">mini danger</button>
+          </div>
+        </div>
+          <div class="row">
+          <div class="span4"><i class="icon-search"></i></div>
+          <div class="span8">
+            <div class="btn-group">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Action
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">Action</a></li>
+                <li><a tabindex="-1" href="#">Another action</a></li>
+                <li><a tabindex="-1" href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="#">Separated link</a></li>
+              </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+          <div class="span3">
+            <div class="btn-group">
+              <button class="btn">1</button>
+              <button class="btn btn-danger">2</button>
+              <button class="btn">3</button>
+            </div>
+          </div>
+          <div class="span3">f</div>
+          <div class="span3">g</div>
+          <div class="span3">h</div>
+        </div>
+          <div class="row">
+          <div class="span1">i</div>
+          <div class="span10">
+            j
+            <div class="row"></div>
+                <div class="span5">j1</div>
+                <div class="span5">j2</div>
+          </div>
+
+        </div>
+     </div>
+      <%= yield %>
+    </div>
+  </body>
+</html>

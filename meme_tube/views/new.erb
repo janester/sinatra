@@ -1,0 +1,25 @@
+<div id="new_vid">
+  <h2>Enter A New Video</h2>
+  <form  action = "<%= @row.nil? ? "/create" : "/all/#{@row["id"]}" %>" method = 'post'>
+    <section class="form">
+      <label>Video Title</label>
+      <input placeholder="Title" value="<%= @row["name"] if @row %>" type="text" name="name" autofocus>
+    </section>
+
+    <section class="form">
+      <label>Video Description</label>
+      <input placeholder="Description" value="<%= @row["description"] if @row %>" type="text" name="description">
+    </section>
+    <section class="form">
+      <label>Last Part of the Video URL (after the equal sign)</label>
+      <input placeholder="URL after the equal sign" value="<%= @row["url"] if @row %>" type="text" name="url">
+    </section>
+    <section class="form">
+      <label>Genre</label>
+      <input placeholder="Genre" value="<%= @row["genre"] if @row %>" type="text" name="genre">
+    </section>
+    <section class="form">
+      <button><%= @row.nil? ? "New Video" : "Edit Video" %></button>
+    </section>
+  </form>
+</div>

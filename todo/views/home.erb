@@ -1,0 +1,7 @@
+<h2>My List</h2>
+<% @rows.each do |row| %>
+  <div class="list"><ul>
+    <li><%= row["id"]%>
+    <%= row["task"]%>
+  <%= row["due"]%></li></div>
+  <% end %>
